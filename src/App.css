@@ -41,6 +41,12 @@ main {
   font-size: 18px;
 }
 
+.add-counter:hover {
+  cursor: pointer;
+  border: 0.5px solid rgb(101, 86, 200);
+  background-color: rgb(101, 86, 200);
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -83,6 +89,11 @@ main {
   font-size: 30px;
 }
 
+.counter button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
 .reset-button button {
   padding: 10px 10px;
   border: 0.5px solid rgb(82, 63, 205);
@@ -90,6 +101,12 @@ main {
   color: white;
   border-radius: 10px;
   font-size: 18px;
+}
+
+.reset-button button:hover {
+  cursor: pointer;
+  border: 0.5px solid rgb(101, 86, 200);
+  background-color: rgb(101, 86, 200);
 }
 
 .hidden {
