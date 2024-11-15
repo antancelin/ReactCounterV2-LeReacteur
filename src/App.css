@@ -148,6 +148,10 @@ footer a {
     gap: 80px;
   }
 
+  .counter button:hover {
+    background-color: white;
+  }
+
   /* FOOTER */
   footer p {
     font-size: 14px;
